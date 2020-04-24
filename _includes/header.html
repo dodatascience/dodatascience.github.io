@@ -16,9 +16,10 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="{{ site.baseurl | append: '/' }}">Home</a></li>
-              {% if site.blog == true %}
-                <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
+                {% if site.blog == true %}
+              <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
                 {% endif %}
+              <li><a href="{{ '/_items/about' | prepend: site.baseurl }}">About Us</a></li>
             </ul>
           </div>
         </div>
