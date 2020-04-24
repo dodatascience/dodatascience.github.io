@@ -1,1 +1,38 @@
-theme: jekyll-theme-hacker
+# github: [metadata]
+# encoding: UTF-8
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+# future: true
+# jailed: false
+# theme: jekyll-theme-hacker
+# gfm_quirks: paragraph_end
+# plugins:
+#   - jekyll-mentions
+#   - jemoji
+#   - jekyll-redirect-from
+#   - jekyll-sitemap
+#   - jekyll-feed
+#   - jekyll-include-cache
+#   - jekyll-seo-tag
+#   - jekyll-avatar
+
+## Settings
+title: DoDataScience
+owner: "Towaha"
+url: "https://towaha.me"
+permalink: /:title/
+description: "DoDataScience"
+markdown: kramdown
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+## Global Variables
+email: "DoDataScienceUk@gmail.com"
+# path to: css/, fonts/, img/ and js/
+assets_path: "/assets" # i.e. "/assets" 
+statement: "Lets see what comes next!"
+# default max toc levels: 1 - 6 (h1 - h6)
+toc_level: 3
+# texts randomly displayed in background
+bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
