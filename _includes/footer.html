@@ -14,11 +14,11 @@
         {% include links.html %}
       </div>
     </div>
-    {% if site.email != null and site.author != null %}
+    {% if site.url != null and site.author != null %}
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
         Copyright (c) 20{{ site.time | date: '%y' }} {{site.author}} -
-        <a href="mailto:{{site.email}}">&lt;{{site.email}}&gt;</a>
+        <a href="{{site.url}}">&lt;{{site.url}}&gt;</a>
       </div>
     </div>
     {% endif %}
