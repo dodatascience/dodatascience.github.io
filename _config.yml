@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: Do Data Science
 author: "Towaha"
-email: "dodatascienceuk@gmail.com"
 description: Lets do data science!
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://dodatascience.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
