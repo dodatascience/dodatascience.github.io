@@ -20,7 +20,8 @@
 ## Settings
 title: DoDataScience
 owner: "Towaha"
-url: "https://towaha.me"
+url: "https://dodatascience.co.uk"
+baseurl: "/"
 permalink: /:title/
 description: "DoDataScience"
 markdown: kramdown
