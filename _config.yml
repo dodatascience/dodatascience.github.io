@@ -23,11 +23,6 @@ url: "http://dodatascience.co.uk/" # the base hostname & protocol for your site,
 # ------------------------------------------------------------------------------
 # Custom settings
 # ------------------------------------------------------------------------------
-# Useful links
-github_username: "SOFTowaha"
-facebook_username: "SOFTowaha"
-twitter_username: "SOFTowaha"
-linkedin_id: "SOFTowaha"
 
 # Theme
 # theme: jekyll-theme-potato-hacker                 # Uncomment this
@@ -38,9 +33,7 @@ theme_switch: on         # Show color switch (on | off)
 
 # Extra settings
 blog: on                 # Show blog tag and post list (on | off)
-avatar: on               # Show avatar (on | off)
-avatar_image: "assets/img/avatar.jpg"
-avatar_description: "Syed Omar Faruk Towaha"
+avatar: off               # Show avatar (on | off)
 highlighter_theme: gruvbox  # Theme of the syntax_highlighter [base16 |
                             # colorful | github | gruvbox | molokai |
                             # monokai | pastie | thankful_eyes | tulip ]
