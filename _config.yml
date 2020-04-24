@@ -1,27 +1,8 @@
-# github: [metadata]
-# encoding: UTF-8
-# kramdown:
-#   input: GFM
-#   hard_wrap: false
-# future: true
-# jailed: false
-# theme: jekyll-theme-hacker
-# gfm_quirks: paragraph_end
-# plugins:
-#   - jekyll-mentions
-#   - jemoji
-#   - jekyll-redirect-from
-#   - jekyll-sitemap
-#   - jekyll-feed
-#   - jekyll-include-cache
-#   - jekyll-seo-tag
-#   - jekyll-avatar
-
 ## Settings
 title: DoDataScience
 owner: "Towaha"
 url: "https://dodatascience.co.uk"
-baseurl: "/"
+baseurl: "/dodatascience.github.io"
 permalink: /:title/
 description: "DoDataScience"
 markdown: kramdown
@@ -30,6 +11,7 @@ webrick:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
 email: "DoDataScienceUk@gmail.com"
+github: "dodatascience/dodatascience.github.io"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
 statement: "Lets see what comes next!"
