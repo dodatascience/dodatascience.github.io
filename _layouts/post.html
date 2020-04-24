@@ -1,9 +1,8 @@
 ---
 layout: default
+blog: true
 ---
-
-<h1>
-  {{ page.title }}
-</h1>
-{% include post_info.html %}
-{{ content }}
+<h4 class="post-title"> {{ page.date }} </h4>
+<article class="blog-post">
+  {{ content }}
+</article>
