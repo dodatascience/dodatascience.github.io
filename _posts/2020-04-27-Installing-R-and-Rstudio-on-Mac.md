@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing R and RStudio on Mac"
-date:   2020-04-27 12:07:12 -0200
+date:   2020-04-27 12:07:12
 categories: blog
 layout: post
 ---
