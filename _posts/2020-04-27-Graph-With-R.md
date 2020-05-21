@@ -5,11 +5,11 @@ date:   2020-04-27 12:07:12
 categories: blog
 layout: post
 ---
-###required packages
+### Required packages
 * ggplot2
 * dplyr
 
-###Creating data for the graph
+### Creating data for the graph
 ```
 library(ggplot2)
 library(dplyr)
@@ -25,5 +25,5 @@ ggplot(data, aes(x=Time, y=Value, fill=group)) +
   geom_area()
 ```
 
-####Graph
-![](./images/stacked_01.png)
+#### Graph Output
+![](../assets/img/images/stacked_01.png)
