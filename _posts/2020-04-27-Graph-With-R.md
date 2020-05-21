@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Graph with R - Stacket Area"
+date:   2020-04-27 12:07:12
+categories: blog
+layout: post
+---
+###required packages
+* ggplot2
+* dplyr
+
+###Creating data for the graph
+```
+library(ggplot2)
+library(dplyr)
+Time <- as.numeric(rep(seq(1,10),each=10)) # sequence number
+Time
+Value <- runif(25, 10, 100) #random numbers
+Value
+group <- rep(LETTERS[1:10],times=10)
+group
+data <- data.frame(Time, Value, group)
+data
+ggplot(data, aes(x=Time, y=Value, fill=group)) + 
+  geom_area()
+```
+
+####Graph
+![](./images/stacked_01.png)
